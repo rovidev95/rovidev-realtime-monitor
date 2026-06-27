@@ -1,5 +1,9 @@
 # realtime-monitor
 
+[![CI](https://github.com/rovidev95/rovidev-realtime-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/rovidev95/rovidev-realtime-monitor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
+
 Polls a list of services, keeps rolling metrics (uptime, latency p50/p95) and
 raises alerts on state changes. A small dashboard connects over WebSocket and
 updates live — no page refresh, no Prometheus/Grafana to run.
@@ -75,6 +79,11 @@ npm test
 npm run typecheck
 npm run lint
 ```
+
+## Custom work
+
+Need monitoring/observability tailored to your services?
+Get in touch at [rovidev.com](https://rovidev.com).
 
 ## License
 
