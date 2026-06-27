@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RoviDev · Realtime Monitor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">RoviDev<span>Monitor</span></div>
+      <div class="conn" id="conn"><span class="dot"></span><span id="conn-text">connecting…</span></div>
+    </header>
+
+    <main class="layout">
+      <section>
+        <h2 class="section-title">Services</h2>
+        <div id="grid" class="grid"></div>
+      </section>
+
+      <aside>
+        <h2 class="section-title">Alerts</h2>
+        <ul id="alerts" class="alerts"></ul>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <a href="https://rovidev.com">rovidev.com</a>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

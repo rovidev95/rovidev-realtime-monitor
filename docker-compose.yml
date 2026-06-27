@@ -1,0 +1,10 @@
+services:
+  monitor:
+    build: .
+    restart: unless-stopped
+    environment:
+      PORT: 8080
+      SNAPSHOT_INTERVAL_MS: ${SNAPSHOT_INTERVAL_MS:-5000}
+      MONITOR_TARGETS: ${MONITOR_TARGETS:-}
+    ports:
+      - "8080:8080"

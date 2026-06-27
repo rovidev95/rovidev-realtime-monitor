@@ -1,0 +1,50 @@
+{
+  "name": "rovidev-realtime-monitor",
+  "version": "1.0.0",
+  "description": "Real-time service monitoring: health checks, rolling metrics, an alert engine and a live WebSocket dashboard.",
+  "license": "MIT",
+  "author": "RoviDev (https://rovidev.com)",
+  "type": "module",
+  "homepage": "https://rovidev.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoviDev/rovidev-realtime-monitor.git"
+  },
+  "keywords": [
+    "monitoring",
+    "observability",
+    "websocket",
+    "uptime",
+    "alerting",
+    "metrics",
+    "realtime",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "express": "^5.0.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.5.13",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
