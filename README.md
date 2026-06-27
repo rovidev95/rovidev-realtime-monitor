@@ -4,11 +4,15 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rovidev95/rovidev-realtime-monitor)
+
 Polls a list of services, keeps rolling metrics (uptime, latency p50/p95) and
 raises alerts on state changes. A small dashboard connects over WebSocket and
 updates live — no page refresh, no Prometheus/Grafana to run.
 
 Stack: Node + Express + `ws`, TypeScript, vanilla-JS frontend.
+
+![Dashboard](docs/dashboard.png)
 
 ## What it does
 

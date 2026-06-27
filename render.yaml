@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: rovidev-realtime-monitor
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
