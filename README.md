@@ -4,7 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 
+[![Live demo](https://img.shields.io/badge/Live%20demo-rovidev--realtime--monitor.onrender.com-2563eb?style=flat&logo=render&logoColor=white)](https://rovidev-realtime-monitor.onrender.com)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rovidev95/rovidev-realtime-monitor)
+
+> **Live demo:** [rovidev-realtime-monitor.onrender.com](https://rovidev-realtime-monitor.onrender.com) — hosted on Render's free tier, so the first request after idle may take ~30s to wake the service.
 
 Polls a list of services, keeps rolling metrics (uptime, latency p50/p95) and
 raises alerts on state changes. A small dashboard connects over WebSocket and
